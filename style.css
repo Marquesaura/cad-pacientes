@@ -1,0 +1,34 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    color: black;
+}
+form{
+    margin-bottom: 20px;
+}
+input, button{
+    padding: 10px;
+    font-size: 16px;
+}
+#cad-form{
+    list-style: none;
+    padding: 5px;
+    max-width: 300px;
+    width: 100%;
+}
+#cad-form li{
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid red;
+    justify-content: space-between;
+    align-items: center;
+}
