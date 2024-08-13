@@ -18,8 +18,8 @@ document.getElementById('cad-form').addEventListener("submit", function (e) {
     histmed.value = "";
 });
 function addTodo(tarefa) {
-    const list = document.getElementById("cad-form");
-    const listItem = document.createElement("li");
-    listItem.textContent = dado;
-    list.appendChild(listItem);
+    const form = document.getElementById("cad-form");
+    const listItem = document.createElement("table");
+    listItem.textContent = tarefa;
+    form.appendChild(listItem);
 }
