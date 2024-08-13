@@ -20,6 +20,6 @@ document.getElementById('cad-form').addEventListener("submit", function (e) {
 function addTodo(tarefa) {
     const form = document.getElementById("cad-form");
     const listItem = document.createElement("table");
-    listItem.textContent = tarefa;
+    listItem.textContent = dados;
     form.appendChild(listItem);
 }
