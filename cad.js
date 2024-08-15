@@ -15,7 +15,7 @@ function checkInputNome() {
         errorInput(nome, "Preencha com seu nome!")
     } else {
         const formItem = nome.parentElement;
-        formItem.classNome = "form_container"
+        formItem.className = "form_container"
     }
 
 }
@@ -27,7 +27,7 @@ function checkInputIdade() {
         errorInput(idade, "Selecione a sua data de nascimento")
     } else {
         const formItem = idade.parentElement;
-        formItem.classIdade = "form_container"
+        formItem.className = "form_container"
     }
 
 }
@@ -38,7 +38,7 @@ function checkInputSexo() {
         errorInput(sexo, "Selecione seu sexo!")
     } else {
         const formItem = sexo.parentElement;
-        formItem.classSexo = "form_container"
+        formItem.className = "form_container"
     }
 
 }
@@ -49,7 +49,7 @@ function checkInputEndereco() {
         errorInput(endereco, "Coloque seu endereço")
     } else {
         const formItem = endereco.parentElement;
-        formItem.classEndereco = "form_container"
+        formItem.className = "form_container"
     }
 
 }
@@ -60,7 +60,7 @@ function checkInputTelefone() {
         errorInput(telefone, "Preencha com seu telefone!")
     } else {
         const formItem = telefone.parentElement;
-        formItem.classTelefone = "form_container"
+        formItem.className = "form_container"
     }
 
 }
@@ -71,7 +71,7 @@ function checkInputEmail() {
         errorInput(email, "Preencha com seu email!")
     } else {
         const formItem = telefone.parentElement;
-        formItem.classTelefone = "form_container"
+        formItem.className = "form_container"
     }
 
 }
@@ -82,7 +82,7 @@ function checkInputCPF() {
         errorInput(cpf, "Preencha com seu cpf!")
     } else {
         const formItem = cpf.parentElement;
-        formItem.classcpf = "form_container"
+        formItem.className = "form_container"
     }
 
 }
@@ -93,7 +93,7 @@ function checkInputHistMed() {
         errorInput(histmed, "Preencha com seu histórico médico!")
     } else {
         const formItem = histmed.parentElement;
-        formItem.classhistmed = "form_container"
+        formItem.className = "form_container"
     }
 
 }
