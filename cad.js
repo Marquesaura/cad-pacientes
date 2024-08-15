@@ -8,6 +8,23 @@ const email = document.getElementById("email");
 const cpf = document.getElementById("cpf");
 const histmed = document.getElementById("histmed");
 
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+  
+    checkForm();
+  })
+  
+  email.addEventListener("blur", () => {
+    checkInputEmail();
+  })
+  
+  
+  nome.addEventListener("blur", () => {
+    checkInputUsername();
+  })
+  
+  
+
 function checkInputNome() {
     const nome = nome.value;
 
