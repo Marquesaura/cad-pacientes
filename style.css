@@ -1,5 +1,5 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
     padding: 20px;
     display: flex;
@@ -27,7 +27,7 @@ body::before{
     width: 100%;
     height: 100%;
     background: linear-gradient(#3d4daa, #6574ca);
-    clip-path: circle(17% at 25% 15%);
+    clip-path: circle(17% at 20% 15%);
 }
 body::after{
     content: '';
@@ -37,7 +37,7 @@ body::after{
     width: 100%;
     height: 100%;
     background: linear-gradient( #ffffff, #6078bb) ;
-    clip-path: circle(20% at 90% 80%);
+    clip-path: circle(20% at 90% 60%);
 }
 
 form{
@@ -52,23 +52,23 @@ input, button{
     padding: 10px;
     font-size: 16px;
     border-radius: 4px;
+    width: 420px;
+    margin: 20px;
+}
+button{
+    background-color: #6078bb;
+    border-radius: 10px;
+    border-color: #6078bb;
+    align-items: center;
+    width: 450px;
 }
 #cad-form{
     list-style: none;
-    padding: 5px;
-    max-width: 400px;
+    max-width: 550px;
     width: 100%;
+    height: 800px;
+}
 
-}
-#cad-form li{
-    background: rgb(169, 228, 255);
-    margin-bottom: 10px;
-    padding: 10px;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5px;
-    border: 3px solid rgb(255, 255, 255);
-}
 input{
     margin: 10px;
     border-radius: 4px;
@@ -88,6 +88,6 @@ legend{
     padding: 10px;
 }
 .field{
-    padding: 59px;
+    padding: 39px;
+    width: 300;
 }
-
